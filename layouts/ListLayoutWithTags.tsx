@@ -127,7 +127,7 @@ export default function ListLayoutWithTags({
           <div>
             <ul>
               {displayPosts.map((post) => {
-                const { path, date, title, summary, tags, images} = post
+                const { path, date, title, summary, tags, images } = post
                 return (
                   <li key={path} className="py-5">
                     <article className="flex flex-col space-y-2 xl:space-y-0">
@@ -146,11 +146,11 @@ export default function ListLayoutWithTags({
                               {title}
                             </Link>
                           </h2>
-                          <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mt-2 mb-4 w-full">
+                          <div className="mb-4 mt-2 w-full overflow-hidden rounded-lg shadow-md transition-shadow duration-300 hover:shadow-lg">
                             <div className="aspect-video">
-                              <img 
-                                src={images} 
-                                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                              <img
+                                src={images}
+                                className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                               />
                             </div>
                           </div>
