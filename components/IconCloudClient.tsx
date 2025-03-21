@@ -14,4 +14,4 @@ export default function IconCloudClient({ iconSlugs }: { iconSlugs: string[] }) 
   }
 
   return <IconCloud iconSlugs={iconSlugs} />
-} 
+}

@@ -4,7 +4,7 @@ import AuthorLayout from '@/layouts/AuthorLayout'
 import { coreContent } from 'pliny/utils/contentlayer'
 import { genPageMetadata } from 'app/seo'
 import { techIcons } from '@/data/infoConfig'
-import IconCloudClient from 'app/components/IconCloudClient'
+import IconCloudClient from 'components/IconCloudClient'
 
 export const metadata = genPageMetadata({ title: 'About' })
 
