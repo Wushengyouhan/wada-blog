@@ -1596,6 +1596,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/convert-colors@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@csstools/convert-colors@npm:2.0.0"
+  checksum: 6ce595d17f98489e621bacd8e948a17315436e8eab9039a653ff8a75bc06cefe6c636db32c25018cb5479ea1f072fef055db768dc31750f153bdd98099f4a718
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:0.5.7":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -9775,6 +9782,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-icon-cloud@npm:4.1.7":
+  version: 4.1.7
+  resolution: "react-icon-cloud@npm:4.1.7"
+  dependencies:
+    "@csstools/convert-colors": ^2.0.0
+  peerDependencies:
+    react: ">=16"
+  checksum: 1fc9d8cace3ff46499bd4c8a545c71d4fa48a1033916159298c2b542ca97e850499bf770e6bf8f3400f1b8b2fe745ca71ebd86a4b8229da5e54ec7b1258883b1
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -11459,6 +11477,7 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.5.11
     react: rc
     react-dom: rc
+    react-icon-cloud: 4.1.7
     reading-time: 1.5.0
     rehype-autolink-headings: ^7.1.0
     rehype-citation: ^2.0.0
