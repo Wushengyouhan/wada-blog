@@ -7,12 +7,11 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'LuLuCoin',
+    description: `This is a simple demo of a web application built with Next.js 15 
+    and Foundry framework for ERC20 smart contracts.`,
+    imgSrc: '/static/images/lulucoin.png',
+    href: 'https://lulu-coin-frontend-azj1wzom3-wushengyouhans-projects.vercel.app/',
   },
   {
     title: 'The Time Machine',
