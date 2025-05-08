@@ -14,6 +14,13 @@ const projectsData: Project[] = [
     href: 'https://lulu-coin-frontend-azj1wzom3-wushengyouhans-projects.vercel.app/',
   },
   {
+    title: 'Pixel Grid',
+    description: `This is a pixel grid Dapp deployed on the Monad testnet, 
+    where you can claim a grid by choosing your favorite color or avatar!`,
+    imgSrc: '/static/images/pixelgrid.png',
+    href: 'https://pixel-grid-chain-topaz.vercel.app/',
+  },
+  {
     title: 'The Time Machine',
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
