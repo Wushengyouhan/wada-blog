@@ -21,6 +21,12 @@ const projectsData: Project[] = [
     href: 'https://pixel-grid-chain-topaz.vercel.app/',
   },
   {
+    title: 'Donate Blink',
+    description: `This is a donation page based on Blockchain Links, where users can donate monad test coins.`,
+    imgSrc: '/static/images/donateblink.png',
+    href: 'https://donate-blink-monad.vercel.app/',
+  },
+  {
     title: 'The Time Machine',
     description: `Imagine being able to travel back in time or to the future. Simple turn the knob
     to the desired date and press "Go". No more worrying about lost keys or
